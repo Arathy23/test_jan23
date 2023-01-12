@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<script id="sap-ui-bootstrap" src="https://sapui5.hana.ondemand.com/1.90.0/resources/sap-ui-core.js"
+		data-sap-ui-theme="sap_fiori_3_dark" data-sap-ui-xx-bindingSyntax="complex" data-sap-ui-libs="sap.m"
+		data-sap-ui-resourceroots='{
+			"com.demo.app": "./"
+		}'>
+		</script>
+
+	<script>
+        var oCompContainer =  new sap.ui.core.ComponentContainer({
+			name:"com.demo.app"
+		})
+
+		oCompContainer.placeAt("content");
+
+	</script>
+</head>
+
+<body class="sapUiBody">
+	<div id="content"></div>
+</body>
+
+</html>

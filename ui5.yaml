@@ -1,0 +1,12 @@
+specVersion: '2.6'
+metadata:
+  name: fioriapp
+type: application
+server:
+  customMiddleware:
+    - name: fiori-tools-proxy
+      afterMiddleware: compression
+      configuration:
+        backend:
+        - path: /sap
+          url: https://utg-dem-he3.utegration.com:8800

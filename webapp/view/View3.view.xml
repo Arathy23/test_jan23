@@ -1,0 +1,14 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns:f="sap.ui.layout.form" xmlns="sap.m" controllerName="com.demo.app.controller.View3">
+    <Page title="View3" showNavButton="true" navButtonPress=".onBack">
+        <f:SimpleForm>
+            <Label text="Supplier Name" />
+            <Text text="{name}" />
+            <Label text="City" />
+            <Text text="{city}" />
+            <Label text="Contact Person" />
+            <Text text="{contactPerson}" />
+            <Label text="Since When" />
+            <Text text="{sinceWhen}" />
+        </f:SimpleForm>
+    </Page>
+</mvc:View>

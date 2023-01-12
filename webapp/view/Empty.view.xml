@@ -1,0 +1,5 @@
+<mvc:View xmlns:mvc="sap.ui.core.mvc" xmlns="sap.m" controllerName="com.demo.app.controller.Empty">
+    <Page title="Welcome to App">
+      <Image width="100%" height="100%" src="https://lumiere-a.akamaihd.net/v1/images/gr_avatarreckoning_22501_3e89551d.jpeg?region=0,0,640,360"></Image>
+    </Page>
+</mvc:View>
